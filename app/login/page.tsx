@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/hooks';
-import Header from '@/components/Header';
+import Header from '@/components/header/header';
 
 const LoginPage: React.FC = () => {
   const { user, login } = useAuth();

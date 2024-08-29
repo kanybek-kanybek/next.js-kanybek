@@ -1,0 +1,20 @@
+.productTime {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.productTImeH {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.productTImeH h1 {
+  padding-right: 4pc;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+}
