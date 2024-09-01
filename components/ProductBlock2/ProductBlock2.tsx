@@ -1,9 +1,9 @@
 import Image from 'next/image';
-import img1 from '../../public/assets/img1.svg';
+import img1 from '../../public/assets/cat.png';
 import img2 from '../../public/assets/img2.svg';
 import img3 from '../../public/assets/img3.svg';
-import './ProductBlock.css';
-export default function ProductBlock() {
+import './ProductBlock2.css';
+export default function ProductBlock2() {
   return (
     <div>
       <section id="product">
@@ -12,23 +12,7 @@ export default function ProductBlock() {
             <Image className="productMainImage" src={img1} alt="" />
             <div className="productTime">
               <div className="productTImeH">
-                <h1>Flash Sales</h1>
-                <div>
-                  <h6>Days</h6>
-                  <h4>03</h4>
-                </div>
-                <div>
-                  <h6>Hours</h6>
-                  <h4>23</h4>
-                </div>
-                <div>
-                  <h6>Minutes</h6>
-                  <h4>19</h4>
-                </div>
-                <div>
-                  <h6>Seconds</h6>
-                  <h4>56</h4>
-                </div>
+                <h1>Browse By Category</h1>
               </div>
               <div className="productTimeImage">
                 <Image src={img2} alt="" />

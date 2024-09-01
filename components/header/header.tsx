@@ -55,7 +55,9 @@ function Header() {
                   <BiCartAlt />
                 </span>
                 <span>
-                  <IoPersonCircleOutline />
+                  <a href="/login">
+                    <IoPersonCircleOutline />
+                  </a>
                 </span>
               </div>
             </div>
