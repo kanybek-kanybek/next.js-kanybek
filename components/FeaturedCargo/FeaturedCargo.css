@@ -1,0 +1,14 @@
+.FeaturedCargo__cards {
+  display: flex;
+  justify-content: space-between;
+}
+.FeaturedCargo__card__one {
+  text-align: center;
+}
+.FeaturedCargo__card__two {
+  text-align: center;
+}
+
+.FeaturedCargo__card__three {
+  text-align: center;
+}

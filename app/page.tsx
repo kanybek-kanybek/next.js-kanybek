@@ -1,5 +1,7 @@
 import AllProduct from '@/components/AllProduct/AllProduct';
-import Footer from '@/components/header/footer/footer';
+import Featured from '@/components/Featured/Featured';
+import FeaturedCargo from '@/components/FeaturedCargo/FeaturedCargo';
+import Footer from '@/components/footer/footer';
 import Header from '@/components/header/header';
 import MainBlock from '@/components/MainBLokc/MainBlock';
 import ProductBlock from '@/components/ProductBlock/ProductBlock';
@@ -19,6 +21,8 @@ const Home: React.FC = () => {
       <ProductCategories />
       <ProductBlock3 />
       <AllProduct />
+      <Featured />
+      <FeaturedCargo />
       <Footer />
     </>
   );

@@ -1,0 +1,14 @@
+.wrap__featured {
+  margin: 50px;
+}
+.featured__title h1 {
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 4%;
+}
+.featured__card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 20px 0px;
+}

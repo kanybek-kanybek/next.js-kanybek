@@ -1,6 +1,6 @@
 import React from 'react';
 import '../footer/footer.css';
-import footerImg from '../../../public/assets/photo_5364084896672373496_m.jpg';
+import footerImg from '../../public/assets/photo_5364084896672373496_m.jpg';
 import { RiFacebookLine } from 'react-icons/ri';
 import { FiTwitter } from 'react-icons/fi';
 import { FiInstagram } from 'react-icons/fi';
