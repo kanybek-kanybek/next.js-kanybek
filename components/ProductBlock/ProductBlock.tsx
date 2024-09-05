@@ -31,8 +31,8 @@ export default function ProductBlock() {
                 </div>
               </div>
               <div className="productTimeImage">
-                <Image src={img2} alt="" />
-                <Image src={img3} alt="" />
+                <Image src={img2} alt="text" />
+                <Image src={img3} alt="text" />
               </div>
             </div>
             <div className="productImage"></div>

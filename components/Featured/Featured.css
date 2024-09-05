@@ -12,3 +12,49 @@
   gap: 30px;
   margin: 20px 0px;
 }
+
+.featured__card__two {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.featured__card__three {
+  display: flex;
+  gap: 30px;
+}
+.featured__card__one h3 {
+  position: relative;
+  bottom: 0;
+}
+.featured__card__one img {
+  width: 670px;
+  height: 700px;
+  border-radius: 4px;
+  padding-top: 80px;
+  background: #000000;
+  /* position: absolute; */
+}
+
+.featured__card__two__img1 {
+  width: 670px;
+  height: 384px;
+  border-radius: 4px;
+  background: #0d0d0d;
+}
+.featured__card__two__img2 {
+  width: 270px;
+  height: 284px;
+  padding: 20px;
+  border-radius: 4px;
+  background: #000000;
+}
+.featured__card__two__img3 {
+  width: 270px;
+  height: 284px;
+  border-radius: 4px;
+  background: #000000;
+  padding: 20px;
+}
+.featured__card__three img {
+  background: #000000;
+}
