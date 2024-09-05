@@ -1,0 +1,47 @@
+.productCategories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productCardCategori {
+  display: flex;
+  align-items: center;
+  width: 170px;
+  gap: 10px;
+  height: 145px;
+  border-radius: 8px;
+  justify-content: center;
+  border: 1px solid #0000004d;
+  flex-direction: column;
+}
+
+.productHr {
+  margin: 80px 0;
+}
+
+.productCategoriesCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.productCardCategori h4 {
+  font-size: 50px;
+}
+
+.productCardCategori:hover {
+  display: flex;
+  align-items: center;
+  width: 170px;
+  gap: 10px;
+  background: #db4444;
+  color: white;
+  transition: 0.5;
+  height: 145px;
+  border-radius: 8px;
+  justify-content: center;
+  border: none;
+  flex-direction: column;
+}
