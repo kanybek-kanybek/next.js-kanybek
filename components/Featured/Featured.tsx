@@ -28,31 +28,40 @@ export default function Featured() {
                   <a href="#">Shop Now</a>
                 </div>
               </div>
-
-              <div className="featured__card">
-                <Image src={featuredImgTwo} alt="Women's Collections" />
-                <div className="text__overlay">
-                  <h3>Women s Collections</h3>
-                  <p>Featured women collections that give you another vibe.</p>
-                  <a href="#">Shop Now</a>
+              <div className="featuredCardTwo">
+                <div className="featured__card">
+                  <Image
+                    className="img1"
+                    src={featuredImgTwo}
+                    alt="Women's Collections"
+                  />
+                  <div className="text__overlay">
+                    <h3>Women s Collections</h3>
+                    <p>
+                      Featured women collections that give you another vibe.
+                    </p>
+                    <a href="#">Shop Now</a>
+                  </div>
                 </div>
-              </div>
 
-              <div className="featured__card">
-                <Image src={featuredImgThree} alt="Speakers" />
-                <div className="text__overlay">
-                  <h3>Speakers</h3>
-                  <p>Amazon wireless speakers</p>
-                  <a href="#">Shop Now</a>
-                </div>
-              </div>
+                <div className="cardTwoMain">
+                  <div className="featured__card mainCard">
+                    <Image src={featuredImgThree} alt="Speakers" />
+                    <div className="text__overlay">
+                      <h3>Speakers</h3>
+                      <p>Amazon wireless speakers</p>
+                      <a href="#">Shop Now</a>
+                    </div>
+                  </div>
 
-              <div className="featured__card">
-                <Image src={featuredImgFo} alt="Perfume" />
-                <div className="text__overlay">
-                  <h3>Perfume</h3>
-                  <p>GUCCI INTENSE OUD EDP</p>
-                  <a href="#">Shop Now</a>
+                  <div className="featured__card mainCard">
+                    <Image src={featuredImgFo} alt="Perfume" />
+                    <div className="text__overlay">
+                      <h3>Perfume</h3>
+                      <p>GUCCI INTENSE OUD EDP</p>
+                      <a href="#">Shop Now</a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
