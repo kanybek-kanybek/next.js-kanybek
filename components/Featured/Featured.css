@@ -1,14 +1,66 @@
-.wrap__featured {
-  margin: 50px;
-}
-.featured__title h1 {
-  font-size: 36px;
-  line-height: 48px;
-  letter-spacing: 4%;
-}
-.featured__card {
+.featured__cards {
   display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin: 20px 0px;
+  align-items: center;
+  gap: 100px;
+}
+.cardTwoMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 50px;
+}
+
+.featured__card {
+  position: relative;
+  margin-top: 2pc;
+}
+
+.text__overlay {
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+.mainCard {
+  background: #000;
+  width: 300px;
+  height: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured__card__large {
+  background: #000;
+  padding: 30px;
+  border-radius: 5px;
+  height: 676px;
+}
+
+.img1 {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+}
+
+.text__overlay h3 {
+  padding-bottom: 15px;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.text__overlay p {
+  padding-bottom: 15px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.text__overlay a {
+  padding-bottom: 15px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  padding-bottom: 80px;
 }
