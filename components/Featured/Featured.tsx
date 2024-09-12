@@ -29,7 +29,7 @@ export default function Featured() {
                 </div>
               </div>
               <div className="featuredCardTwo">
-                <div className="featured__card">
+                <div className="featured__card featured__div__two">
                   <Image
                     className="img1"
                     src={featuredImgTwo}
@@ -43,7 +43,6 @@ export default function Featured() {
                     <a href="#">Shop Now</a>
                   </div>
                 </div>
-
                 <div className="cardTwoMain">
                   <div className="featured__card mainCard">
                     <Image src={featuredImgThree} alt="Speakers" />

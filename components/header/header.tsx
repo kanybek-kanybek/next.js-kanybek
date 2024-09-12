@@ -5,6 +5,7 @@ import { CiSearch } from 'react-icons/ci';
 import { CiHeart } from 'react-icons/ci';
 import { BiCartAlt } from 'react-icons/bi';
 import { IoPersonCircleOutline } from 'react-icons/io5';
+import Link from 'next/link';
 
 function Header() {
   return (
@@ -33,13 +34,13 @@ function Header() {
                 <h1>Exclusive</h1>
               </div>
               <div className="header__head__nav">
-                <a href="#">Home</a>
+                <Link href="http://localhost:3000/">Home</Link>
 
-                <a href="#">Shop</a>
+                <Link href="/contact">Contact</Link>
 
-                <a href="#">About</a>
+                <Link href="/about">About</Link>
 
-                <a href="#">Contact</a>
+                <Link href="/sinup">Sin up</Link>
               </div>
               <div className="header__head__search">
                 <input
